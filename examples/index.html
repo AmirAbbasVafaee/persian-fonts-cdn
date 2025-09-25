@@ -74,34 +74,54 @@
             border-color: #667eea;
         }
         
-        .cdn-button {
+        .cdn-buttons {
             position: absolute;
             bottom: 0;
             left: 0;
             right: 0;
-            background: #667eea;
-            color: white;
-            padding: 12px;
-            text-align: center;
-            font-size: 0.9rem;
-            font-weight: bold;
+            display: flex;
             transform: translateY(100%);
             transition: transform 0.3s ease;
-            cursor: pointer;
-            border: none;
-            border-radius: 0 0 15px 15px;
         }
         
-        .font-card:hover .cdn-button {
+        .font-card:hover .cdn-buttons {
             transform: translateY(0);
         }
         
-        .cdn-button:hover {
+        .cdn-button {
+            flex: 1;
+            color: white;
+            padding: 12px 8px;
+            text-align: center;
+            font-family: 'IranYekan', sans-serif;
+            font-size: 0.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            transition: background 0.3s ease;
+        }
+        
+        .cdn-button:first-child {
+            background: #667eea;
+            border-radius: 0 0 0 0px;
+        }
+        
+        .cdn-button:last-child {
+            background: #28a745;
+            border-radius: 0 0 0px 0;
+        }
+        
+        .cdn-button:first-child:hover {
             background: #5a6fd8;
         }
         
+        .cdn-button:last-child:hover {
+            background: #218838;
+        }
+        
         .cdn-button.copied {
-            background: #28a745;
+            background: #ffc107 !important;
+            color: #000;
         }
         
         .font-title {
@@ -219,9 +239,14 @@
                         <div class="weight-item iran-yekan-text">عادی <span class="weight-label">(Regular)</span></div>
                         <div class="weight-item iran-yekan-bold">ضخیم <span class="weight-label">(Bold)</span></div>
                     </div>
-                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/iran-yekan.css', this)">
-                        📋 کپی لینک CDN
-                    </button>
+                    <div class="cdn-buttons">
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/iran-yekan.css', this)">
+                            📋 سی‌دی‌ان
+                        </button>
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyDirect('https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/iran-yekan.css', this)">
+                            🔗 مستقیم
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Dana Card -->
@@ -239,9 +264,14 @@
                         <div class="weight-item dana-regular">عادی <span class="weight-label">(Regular)</span></div>
                         <div class="weight-item dana-bold">ضخیم <span class="weight-label">(Bold)</span></div>
                     </div>
-                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/dana.css', this)">
-                        📋 کپی لینک CDN
-                    </button>
+                    <div class="cdn-buttons">
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/dana.css', this)">
+                            📋 سی‌دی‌ان
+                        </button>
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyDirect('https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/dana.css', this)">
+                            🔗 مستقیم
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Kalameh Card -->
@@ -259,9 +289,14 @@
                         <div class="weight-item kalameh-text">عادی <span class="weight-label">(Regular)</span></div>
                         <div class="weight-item kalameh-bold">ضخیم <span class="weight-label">(Bold)</span></div>
                     </div>
-                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/kalameh.css', this)">
-                        📋 کپی لینک CDN
-                    </button>
+                    <div class="cdn-buttons">
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/kalameh.css', this)">
+                            📋 سی‌دی‌ان
+                        </button>
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyDirect('https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/kalameh.css', this)">
+                            🔗 مستقیم
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Peyda Card -->
@@ -279,9 +314,14 @@
                         <div class="weight-item peyda-text">عادی <span class="weight-label">(Regular)</span></div>
                         <div class="weight-item peyda-bold">ضخیم <span class="weight-label">(Bold)</span></div>
                     </div>
-                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/peyda.css', this)">
-                        📋 کپی لینک CDN
-                    </button>
+                    <div class="cdn-buttons">
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/peyda.css', this)">
+                            📋 سی‌دی‌ان
+                        </button>
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyDirect('https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/peyda.css', this)">
+                            🔗 مستقیم
+                        </button>
+                    </div>
                 </div>
                 
                 <!-- Yekan Bakh Card -->
@@ -299,9 +339,14 @@
                         <div class="weight-item yekan-bakh-text">عادی <span class="weight-label">(Regular)</span></div>
                         <div class="weight-item yekan-bakh-bold">ضخیم <span class="weight-label">(Bold)</span></div>
                     </div>
-                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/yekan-bakh.css', this)">
-                        📋 کپی لینک CDN
-                    </button>
+                    <div class="cdn-buttons">
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/yekan-bakh.css', this)">
+                            📋 سی‌دی‌ان
+                        </button>
+                        <button class="cdn-button" onclick="event.stopPropagation(); copyDirect('https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/yekan-bakh.css', this)">
+                            🔗 مستقیم
+                        </button>
+                    </div>
                 </div>
             </div>
             
@@ -314,6 +359,14 @@
     
     <script>
         function copyCDN(url, button) {
+            copyToClipboard(url, button);
+        }
+        
+        function copyDirect(url, button) {
+            copyToClipboard(url, button);
+        }
+        
+        function copyToClipboard(url, button) {
             navigator.clipboard.writeText(url).then(function() {
                 const originalText = button.innerHTML;
                 button.innerHTML = '✅ کپی شد!';

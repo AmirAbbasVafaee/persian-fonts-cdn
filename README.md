@@ -24,6 +24,33 @@ A comprehensive collection of beautiful Persian fonts for web applications, host
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/iran-yekan.css">
 ```
 
+## 🔗 Alternative: Direct CSS Links
+
+If JSDelivr is not available or you prefer direct links, you can use these GitHub raw links:
+
+### All Fonts
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/all-fonts.css">
+```
+
+### Individual Fonts
+```html
+<!-- Iran Yekan -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/iran-yekan.css">
+
+<!-- Dana -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/dana.css">
+
+<!-- Kalameh -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/kalameh.css">
+
+<!-- Peyda -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/peyda.css">
+
+<!-- Yekan Bakh -->
+<link rel="stylesheet" href="https://raw.githubusercontent.com/AmirAbbasVafaee/persian-fonts-cdn/main/css/yekan-bakh.css">
+```
+
 ## 📖 Usage Examples
 
 ### Iran Yekan
