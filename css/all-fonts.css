@@ -1,0 +1,2671 @@
+/* ===== PERSIAN FONTS CDN - ALL FONTS ===== */
+/* Comprehensive collection of Persian fonts for web applications */
+
+/* IRANYEKAN FONT */
+/* ===== IRANYEKAN FONT CSS ===== */
+/* Modern, clean Persian font with excellent readability */
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebThin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebExtraBlack.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== IRANYEKAN TYPOGRAPHY CLASSES ===== */
+
+.iran-yekan-text {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-heading {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-body {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-light {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-medium {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-bold {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-thin {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-black {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-input {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-button {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-label {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-table {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-nav {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-card {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-modal {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-search {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-pagination {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-badge {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-datetime {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-numbers {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-currency {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-list {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-error {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-success {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-warning {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-info {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-tooltip {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-dropdown {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-checkbox {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-radio {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-progress {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-breadcrumb {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-tabs {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-accordion {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-timeline {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-stepper {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-notification {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-alert {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-skeleton {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-loading {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-empty {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-spotlight {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-command {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-context-menu {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-popover {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-hover-card {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-drawer {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-overlay {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-portal {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-scroll-area {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-virtual-list {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-infinite-scroll {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-masonry {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-carousel {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-image {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-avatar {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-group {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-stack {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-grid {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-container {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-center {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-flex {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-box {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-paper {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-section {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-divider {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-space {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+
+
+/* DANA FONT */
+/* ===== DANA FONT CSS ===== */
+/* Elegant, versatile Persian font with extensive weight range */
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Hairline.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-UltraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Thin.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Black.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-ExtraBlack.woff2') format('woff2');
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-fat.woff2') format('woff2');
+  font-weight: 1050;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== DANA TYPOGRAPHY CLASSES ===== */
+
+.dana-text {
+  font-family: 'Dana', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-heading {
+  font-family: 'Dana', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-body {
+  font-family: 'Dana', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-medium {
+  font-family: 'Dana', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-thin {
+  font-family: 'Dana', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-input {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-button {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-label {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-table {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-nav {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-card {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-modal {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-search {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-pagination {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-badge {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-datetime {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-numbers {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-currency {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-list {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-error {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-success {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-warning {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-info {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-tooltip {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-dropdown {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-checkbox {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-radio {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-progress {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-breadcrumb {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-tabs {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-accordion {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-timeline {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-stepper {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-notification {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-alert {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-skeleton {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-loading {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-empty {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-spotlight {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-command {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-context-menu {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-popover {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-hover-card {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-drawer {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-overlay {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-portal {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-scroll-area {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-virtual-list {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-infinite-scroll {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-masonry {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-carousel {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-image {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-avatar {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-group {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-stack {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-grid {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-container {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-center {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-flex {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-box {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-paper {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-section {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-divider {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-space {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-hairline {
+  font-family: 'Dana', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-ultra-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 200;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-thin {
+  font-family: 'Dana', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 400;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-medium {
+  font-family: 'Dana', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-demi-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 600;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 700;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-extra-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 800;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-heavy {
+  font-family: 'Dana', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 950;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-extra-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 1000;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-fat {
+  font-family: 'Dana', sans-serif;
+  font-weight: 1050;
+  direction: rtl;
+  text-align: right;
+}
+
+
+
+/* KALAMEH FONT */
+/* ===== KALAMEH FONT CSS ===== */
+/* Professional Persian font with clean geometric design */
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== KALAMEH TYPOGRAPHY CLASSES ===== */
+
+.kalameh-text {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-heading {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-body {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-light {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-medium {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-bold {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-thin {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-black {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-input {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-button {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-label {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-table {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-nav {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-card {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-modal {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-search {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-pagination {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-badge {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-datetime {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-numbers {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-currency {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-list {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-error {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-success {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-warning {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-info {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-tooltip {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-dropdown {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-checkbox {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-radio {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-progress {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-breadcrumb {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-tabs {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-accordion {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-timeline {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-stepper {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-notification {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-alert {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-skeleton {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-loading {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-empty {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-spotlight {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-command {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-context-menu {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-popover {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-hover-card {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-drawer {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-overlay {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-portal {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-scroll-area {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-virtual-list {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-infinite-scroll {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-masonry {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-carousel {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-image {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-avatar {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-group {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-stack {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-grid {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-container {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-center {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-flex {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-box {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-paper {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-section {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-divider {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-space {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+
+
+/* PEYDA FONT */
+/* ===== PEYDA FONT CSS ===== */
+/* Friendly, approachable Persian font for modern interfaces */
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/peydaWeb-extralight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/peydaWeb-light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-SemiBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-Bold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-ExtraBold.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../fonts/peyda/PeydaWeb-Black.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== PEYDA TYPOGRAPHY CLASSES ===== */
+
+.peyda-text {
+  font-family: 'Peyda', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-heading {
+  font-family: 'Peyda', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-body {
+  font-family: 'Peyda', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-light {
+  font-family: 'Peyda', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-medium {
+  font-family: 'Peyda', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-bold {
+  font-family: 'Peyda', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-thin {
+  font-family: 'Peyda', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-black {
+  font-family: 'Peyda', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.peyda-input {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-button {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-label {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-table {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-nav {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-card {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-modal {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-search {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-pagination {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-badge {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-datetime {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-numbers {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-currency {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-list {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-error {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-success {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-warning {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-info {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-tooltip {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-dropdown {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-checkbox {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-radio {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-progress {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-breadcrumb {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-tabs {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-accordion {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-timeline {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-stepper {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-notification {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-alert {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-skeleton {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-loading {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-empty {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-spotlight {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-command {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-context-menu {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-popover {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-hover-card {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-drawer {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-overlay {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-portal {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-scroll-area {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-virtual-list {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-infinite-scroll {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-masonry {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-carousel {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-image {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-avatar {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-group {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-stack {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-grid {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-container {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-center {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-flex {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-box {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-paper {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-section {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-divider {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.peyda-space {
+  font-family: 'Peyda', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+
+
+/* YEKANBAKH FONT */
+/* ===== YEKANBAKH FONT CSS ===== */
+/* Contemporary Persian font with excellent digital readability */
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== YEKANBAKH TYPOGRAPHY CLASSES ===== */
+
+.yekan-bakh-text {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-heading {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-body {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-light {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-medium {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-bold {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-thin {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-black {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-input {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-button {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-label {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-table {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-nav {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-card {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-modal {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-search {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-pagination {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-badge {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-datetime {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-numbers {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-currency {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-list {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-error {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-success {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-warning {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-info {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-tooltip {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-dropdown {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-checkbox {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-radio {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-progress {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-breadcrumb {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-tabs {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-accordion {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-timeline {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-stepper {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-notification {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-alert {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-skeleton {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-loading {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-empty {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-spotlight {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-command {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-context-menu {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-popover {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-hover-card {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-drawer {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-overlay {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-portal {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-scroll-area {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-virtual-list {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-infinite-scroll {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-masonry {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-carousel {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-image {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-avatar {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-group {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-stack {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-grid {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-container {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-center {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-flex {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-box {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-paper {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-section {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-divider {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-space {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+
+

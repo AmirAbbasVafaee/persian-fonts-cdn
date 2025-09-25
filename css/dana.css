@@ -1,0 +1,623 @@
+/* ===== DANA FONT CSS ===== */
+/* Elegant, versatile Persian font with extensive weight range */
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Hairline.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-UltraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Thin.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-Black.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-ExtraBlack.woff2') format('woff2');
+  font-weight: 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Dana';
+  src: url('../fonts/dana/DanaFaNum-fat.woff2') format('woff2');
+  font-weight: 1050;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== DANA TYPOGRAPHY CLASSES ===== */
+
+.dana-text {
+  font-family: 'Dana', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-heading {
+  font-family: 'Dana', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-body {
+  font-family: 'Dana', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-medium {
+  font-family: 'Dana', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-thin {
+  font-family: 'Dana', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.dana-input {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-button {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-label {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-table {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-nav {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-card {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-modal {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-search {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-pagination {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-badge {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-datetime {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-numbers {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-currency {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-list {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-error {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-success {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-warning {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-info {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-tooltip {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-dropdown {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-checkbox {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-radio {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-progress {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-breadcrumb {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-tabs {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-accordion {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-timeline {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-stepper {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-notification {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-alert {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-skeleton {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-loading {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-empty {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-spotlight {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-command {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-context-menu {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-popover {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-hover-card {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-drawer {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-overlay {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-portal {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-scroll-area {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-virtual-list {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-infinite-scroll {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-masonry {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-carousel {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-image {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-avatar {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-group {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-stack {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-grid {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-container {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-center {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-flex {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-box {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-paper {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-section {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-divider {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-space {
+  font-family: 'Dana', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-hairline {
+  font-family: 'Dana', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-ultra-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 200;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-thin {
+  font-family: 'Dana', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-light {
+  font-family: 'Dana', sans-serif;
+  font-weight: 400;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-medium {
+  font-family: 'Dana', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-demi-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 600;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 700;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-extra-bold {
+  font-family: 'Dana', sans-serif;
+  font-weight: 800;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-heavy {
+  font-family: 'Dana', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 950;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-extra-black {
+  font-family: 'Dana', sans-serif;
+  font-weight: 1000;
+  direction: rtl;
+  text-align: right;
+}
+
+.dana-fat {
+  font-family: 'Dana', sans-serif;
+  font-weight: 1050;
+  direction: rtl;
+  text-align: right;
+}
+

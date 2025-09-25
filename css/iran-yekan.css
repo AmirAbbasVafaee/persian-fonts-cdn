@@ -1,0 +1,503 @@
+/* ===== IRANYEKAN FONT CSS ===== */
+/* Modern, clean Persian font with excellent readability */
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebThin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('../fonts/iran-yekan/IRANYekanWebExtraBlack.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== IRANYEKAN TYPOGRAPHY CLASSES ===== */
+
+.iran-yekan-text {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-heading {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-body {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-light {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-medium {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-bold {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-thin {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-black {
+  font-family: 'IranYekan', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.iran-yekan-input {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-button {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-label {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-table {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-nav {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-card {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-modal {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-search {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-pagination {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-badge {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-datetime {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-numbers {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-currency {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-list {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-error {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-success {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-warning {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-info {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-tooltip {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-dropdown {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-checkbox {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-radio {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-progress {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-breadcrumb {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-tabs {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-accordion {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-timeline {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-stepper {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-notification {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-alert {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-skeleton {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-loading {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-empty {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-spotlight {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-command {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-context-menu {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-popover {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-hover-card {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-drawer {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-overlay {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-portal {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-scroll-area {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-virtual-list {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-infinite-scroll {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-masonry {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-carousel {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-image {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-avatar {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-group {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-stack {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-grid {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-container {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-center {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-flex {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-box {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-paper {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-section {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-divider {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.iran-yekan-space {
+  font-family: 'IranYekan', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+

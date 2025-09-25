@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Comparison - Persian Fonts CDN</title>
+    <link rel="stylesheet" href="../css/all-fonts.css">
+    <style>
+        body {
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            font-family: 'IranYekan', sans-serif;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .font-column {
+            text-align: center;
+        }
+        
+        .font-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .sample-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .weight-demo {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .weight-item {
+            padding: 5px;
+            font-size: 0.9rem;
+            background: #e9ecef;
+            border-radius: 4px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="iran-yekan-heading">مقایسه فونت‌های فارسی</h1>
+            <p class="iran-yekan-text">مقایسه مستقیم تمام فونت‌های موجود در CDN</p>
+        </div>
+        
+        <div class="content">
+            <a href="index.html" class="back-link">← بازگشت به صفحه اصلی</a>
+            
+            <div class="comparison-grid">
+                <!-- Iran Yekan Column -->
+                <div class="font-column">
+                    <div class="font-name iran-yekan-heading">ایران یکان</div>
+                    <div class="sample-text iran-yekan-text">
+                        این فونت مدرن و تمیز برای استفاده در پروژه‌های فارسی طراحی شده است
+                    </div>
+                    <div class="weight-demo">
+                        <div class="weight-item iran-yekan-thin">نازک</div>
+                        <div class="weight-item iran-yekan-light">سبک</div>
+                        <div class="weight-item iran-yekan-text">عادی</div>
+                        <div class="weight-item iran-yekan-bold">ضخیم</div>
+                    </div>
+                </div>
+                
+                <!-- Dana Column -->
+                <div class="font-column">
+                    <div class="font-name dana-heading">دانا</div>
+                    <div class="sample-text dana-text">
+                        فونت زیبا و همه‌کاره با طیف گسترده‌ای از وزن‌ها برای هر نیازی
+                    </div>
+                    <div class="weight-demo">
+                        <div class="weight-item dana-thin">نازک</div>
+                        <div class="weight-item dana-light">سبک</div>
+                        <div class="weight-item dana-regular">عادی</div>
+                        <div class="weight-item dana-bold">ضخیم</div>
+                    </div>
+                </div>
+                
+                <!-- Kalameh Column -->
+                <div class="font-column">
+                    <div class="font-name kalameh-heading">کلمه</div>
+                    <div class="sample-text kalameh-text">
+                        فونت حرفه‌ای با طراحی هندسی تمیز و مدرن برای پروژه‌های تجاری
+                    </div>
+                    <div class="weight-demo">
+                        <div class="weight-item kalameh-thin">نازک</div>
+                        <div class="weight-item kalameh-light">سبک</div>
+                        <div class="weight-item kalameh-text">عادی</div>
+                        <div class="weight-item kalameh-bold">ضخیم</div>
+                    </div>
+                </div>
+                
+                <!-- Peyda Column -->
+                <div class="font-column">
+                    <div class="font-name peyda-heading">پیدا</div>
+                    <div class="sample-text peyda-text">
+                        فونت دوستانه و قابل دسترس برای ایجاد رابط‌های کاربری مدرن
+                    </div>
+                    <div class="weight-demo">
+                        <div class="weight-item peyda-thin">نازک</div>
+                        <div class="weight-item peyda-light">سبک</div>
+                        <div class="weight-item peyda-text">عادی</div>
+                        <div class="weight-item peyda-bold">ضخیم</div>
+                    </div>
+                </div>
+                
+                <!-- Yekan Bakh Column -->
+                <div class="font-column">
+                    <div class="font-name yekan-bakh-heading">یکان باخ</div>
+                    <div class="sample-text yekan-bakh-text">
+                        فونت معاصر با خوانایی عالی برای محیط‌های دیجیتال و وب
+                    </div>
+                    <div class="weight-demo">
+                        <div class="weight-item yekan-bakh-thin">نازک</div>
+                        <div class="weight-item yekan-bakh-light">سبک</div>
+                        <div class="weight-item yekan-bakh-text">عادی</div>
+                        <div class="weight-item yekan-bakh-bold">ضخیم</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e9ecef;">
+                <p class="iran-yekan-text" style="color: #6c757d;">
+                    ساخته شده با ❤️ برای جامعه توسعه‌دهندگان فارسی
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

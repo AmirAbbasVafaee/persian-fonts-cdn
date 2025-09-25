@@ -1,0 +1,512 @@
+/* ===== KALAMEH FONT CSS ===== */
+/* Professional Persian font with clean geometric design */
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'Kalameh';
+  src: url('../fonts/kalameh/KalamehWeb(FaNum)-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== KALAMEH TYPOGRAPHY CLASSES ===== */
+
+.kalameh-text {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-heading {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-body {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-light {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-medium {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-bold {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-thin {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-black {
+  font-family: 'Kalameh', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.kalameh-input {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-button {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-label {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-table {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-nav {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-card {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-modal {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-search {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-pagination {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-badge {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-datetime {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-numbers {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-currency {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-list {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-error {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-success {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-warning {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-info {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-tooltip {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-dropdown {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-checkbox {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-radio {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-progress {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-breadcrumb {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-tabs {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-accordion {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-timeline {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-stepper {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-notification {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-alert {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-skeleton {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-loading {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-empty {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-spotlight {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-command {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-context-menu {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-popover {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-hover-card {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-drawer {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-overlay {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-portal {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-scroll-area {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-virtual-list {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-infinite-scroll {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-masonry {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-carousel {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-image {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-avatar {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-group {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-stack {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-grid {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-container {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-center {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-flex {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-box {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-paper {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-section {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-divider {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.kalameh-space {
+  font-family: 'Kalameh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+

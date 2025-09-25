@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Fonts CDN - Showcase</title>
+    <link rel="stylesheet" href="../css/all-fonts.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            font-family: 'IranYekan', sans-serif;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .font-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .font-card {
+            border: 2px solid #f0f0f0;
+            border-radius: 15px;
+            padding: 25px;
+            background: #fafafa;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .font-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-color: #667eea;
+        }
+        
+        .cdn-button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            border: none;
+            border-radius: 0 0 15px 15px;
+        }
+        
+        .font-card:hover .cdn-button {
+            transform: translateY(0);
+        }
+        
+        .cdn-button:hover {
+            background: #5a6fd8;
+        }
+        
+        .cdn-button.copied {
+            background: #28a745;
+        }
+        
+        .font-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .font-description {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .sample-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        .weight-demo {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .weight-item {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .weight-item:last-child {
+            border-bottom: none;
+        }
+        
+        .weight-label {
+            font-size: 0.9rem;
+            color: #888;
+            margin-left: 10px;
+        }
+        
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .footer p {
+            opacity: 0.8;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="iran-yekan-heading">فونت‌های فارسی CDN</h1>
+            <p class="iran-yekan-text">مجموعه کاملی از فونت‌های فارسی برای وب</p>
+        </div>
+        
+        <div class="content">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">فونت</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">48</div>
+                    <div class="stat-label">وزن مختلف</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">کلاس کاربردی</div>
+                </div>
+            </div>
+            
+            <div class="font-grid">
+                <!-- Iran Yekan Card -->
+                <div class="font-card" onclick="window.open('iran-yekan.html', '_blank')">
+                    <h2 class="font-title iran-yekan-heading">ایران یکان</h2>
+                    <p class="font-description iran-yekan-text">
+                        فونت مدرن و تمیز با خوانایی عالی برای پروژه‌های فارسی
+                    </p>
+                    <p class="sample-text iran-yekan-text">
+                        این فونت برای استفاده در پروژه‌های فارسی طراحی شده است
+                    </p>
+                    <div class="weight-demo">
+                        <div class="weight-item iran-yekan-thin">نازک <span class="weight-label">(Thin)</span></div>
+                        <div class="weight-item iran-yekan-light">سبک <span class="weight-label">(Light)</span></div>
+                        <div class="weight-item iran-yekan-text">عادی <span class="weight-label">(Regular)</span></div>
+                        <div class="weight-item iran-yekan-bold">ضخیم <span class="weight-label">(Bold)</span></div>
+                    </div>
+                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/iran-yekan.css', this)">
+                        📋 کپی لینک CDN
+                    </button>
+                </div>
+                
+                <!-- Dana Card -->
+                <div class="font-card" onclick="window.open('dana.html', '_blank')">
+                    <h2 class="font-title dana-heading">دانا</h2>
+                    <p class="font-description dana-text">
+                        فونت زیبا و همه‌کاره با طیف گسترده‌ای از وزن‌ها
+                    </p>
+                    <p class="sample-text dana-text">
+                        فونت دانا با ۱۳ وزن مختلف برای هر نیازی مناسب است
+                    </p>
+                    <div class="weight-demo">
+                        <div class="weight-item dana-hairline">مویی <span class="weight-label">(Hairline)</span></div>
+                        <div class="weight-item dana-light">سبک <span class="weight-label">(Light)</span></div>
+                        <div class="weight-item dana-regular">عادی <span class="weight-label">(Regular)</span></div>
+                        <div class="weight-item dana-bold">ضخیم <span class="weight-label">(Bold)</span></div>
+                    </div>
+                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/dana.css', this)">
+                        📋 کپی لینک CDN
+                    </button>
+                </div>
+                
+                <!-- Kalameh Card -->
+                <div class="font-card" onclick="window.open('kalameh.html', '_blank')">
+                    <h2 class="font-title kalameh-heading">کلمه</h2>
+                    <p class="font-description kalameh-text">
+                        فونت حرفه‌ای با طراحی هندسی تمیز و مدرن
+                    </p>
+                    <p class="sample-text kalameh-text">
+                        فونت کلمه برای استفاده در پروژه‌های حرفه‌ای ایده‌آل است
+                    </p>
+                    <div class="weight-demo">
+                        <div class="weight-item kalameh-thin">نازک <span class="weight-label">(Thin)</span></div>
+                        <div class="weight-item kalameh-light">سبک <span class="weight-label">(Light)</span></div>
+                        <div class="weight-item kalameh-text">عادی <span class="weight-label">(Regular)</span></div>
+                        <div class="weight-item kalameh-bold">ضخیم <span class="weight-label">(Bold)</span></div>
+                    </div>
+                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/kalameh.css', this)">
+                        📋 کپی لینک CDN
+                    </button>
+                </div>
+                
+                <!-- Peyda Card -->
+                <div class="font-card" onclick="window.open('peyda.html', '_blank')">
+                    <h2 class="font-title peyda-heading">پیدا</h2>
+                    <p class="font-description peyda-text">
+                        فونت دوستانه و قابل دسترس برای رابط‌های مدرن
+                    </p>
+                    <p class="sample-text peyda-text">
+                        فونت پیدا برای ایجاد رابط‌های کاربری دوستانه طراحی شده
+                    </p>
+                    <div class="weight-demo">
+                        <div class="weight-item peyda-thin">نازک <span class="weight-label">(Thin)</span></div>
+                        <div class="weight-item peyda-light">سبک <span class="weight-label">(Light)</span></div>
+                        <div class="weight-item peyda-text">عادی <span class="weight-label">(Regular)</span></div>
+                        <div class="weight-item peyda-bold">ضخیم <span class="weight-label">(Bold)</span></div>
+                    </div>
+                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/peyda.css', this)">
+                        📋 کپی لینک CDN
+                    </button>
+                </div>
+                
+                <!-- Yekan Bakh Card -->
+                <div class="font-card" onclick="window.open('yekan-bakh.html', '_blank')">
+                    <h2 class="font-title yekan-bakh-heading">یکان باخ</h2>
+                    <p class="font-description yekan-bakh-text">
+                        فونت معاصر با خوانایی عالی برای محیط‌های دیجیتال
+                    </p>
+                    <p class="sample-text yekan-bakh-text">
+                        فونت یکان باخ برای نمایش دیجیتال بهینه شده است
+                    </p>
+                    <div class="weight-demo">
+                        <div class="weight-item yekan-bakh-thin">نازک <span class="weight-label">(Thin)</span></div>
+                        <div class="weight-item yekan-bakh-light">سبک <span class="weight-label">(Light)</span></div>
+                        <div class="weight-item yekan-bakh-text">عادی <span class="weight-label">(Regular)</span></div>
+                        <div class="weight-item yekan-bakh-bold">ضخیم <span class="weight-label">(Bold)</span></div>
+                    </div>
+                    <button class="cdn-button" onclick="event.stopPropagation(); copyCDN('https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/yekan-bakh.css', this)">
+                        📋 کپی لینک CDN
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p class="iran-yekan-text">ساخته شده با ❤️ برای جامعه توسعه‌دهندگان فارسی</p>
+        </div>
+    </div>
+    
+    <script>
+        function copyCDN(url, button) {
+            navigator.clipboard.writeText(url).then(function() {
+                const originalText = button.innerHTML;
+                button.innerHTML = '✅ کپی شد!';
+                button.classList.add('copied');
+                
+                setTimeout(function() {
+                    button.innerHTML = originalText;
+                    button.classList.remove('copied');
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Could not copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = url;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    const originalText = button.innerHTML;
+                    button.innerHTML = '✅ کپی شد!';
+                    button.classList.add('copied');
+                    
+                    setTimeout(function() {
+                        button.innerHTML = originalText;
+                        button.classList.remove('copied');
+                    }, 2000);
+                } catch (err) {
+                    console.error('Fallback: Could not copy text: ', err);
+                }
+                document.body.removeChild(textArea);
+            });
+        }
+    </script>
+</body>
+</html>

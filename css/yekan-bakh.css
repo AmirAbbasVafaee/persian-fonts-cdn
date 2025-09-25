@@ -1,0 +1,503 @@
+/* ===== YEKANBAKH FONT CSS ===== */
+/* Contemporary Persian font with excellent digital readability */
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: 'YekanBakh';
+  src: url('../fonts/yekan-bakh/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+/* ===== YEKANBAKH TYPOGRAPHY CLASSES ===== */
+
+.yekan-bakh-text {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-heading {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-body {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-light {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 300;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-medium {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 500;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-bold {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: bold;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-thin {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 100;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-black {
+  font-family: 'YekanBakh', sans-serif;
+  font-weight: 900;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.yekan-bakh-input {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-button {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-label {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-table {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-nav {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-card {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-modal {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-search {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-pagination {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-badge {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-datetime {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-numbers {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-currency {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-list {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-error {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-success {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-warning {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-info {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-tooltip {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-dropdown {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-checkbox {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-radio {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-progress {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-breadcrumb {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-tabs {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-accordion {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-timeline {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-stepper {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-notification {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-alert {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-skeleton {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-loading {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-empty {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-spotlight {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-command {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-context-menu {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-popover {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-hover-card {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-drawer {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-overlay {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-portal {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-scroll-area {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-virtual-list {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-infinite-scroll {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-masonry {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-carousel {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-image {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-avatar {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-group {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-stack {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-grid {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-container {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-center {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-flex {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-box {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-paper {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-section {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-divider {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.yekan-bakh-space {
+  font-family: 'YekanBakh', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+

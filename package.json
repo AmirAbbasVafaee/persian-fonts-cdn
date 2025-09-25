@@ -1,0 +1,56 @@
+{
+  "name": "persian-fonts-cdn",
+  "version": "1.0.0",
+  "description": "Comprehensive Persian fonts CDN with utility classes for web applications",
+  "main": "css/all-fonts.css",
+  "files": [
+    "css/",
+    "fonts/",
+    "examples/",
+    "docs/"
+  ],
+  "scripts": {
+    "build": "node tools/build.js",
+    "validate": "node tools/font-validator.js",
+    "generate-css": "node tools/css-generator.js",
+    "test": "npm run validate && npm run build",
+    "dev": "npm run generate-css && npm run build"
+  },
+  "keywords": [
+    "persian",
+    "farsi",
+    "fonts",
+    "iran-yekan",
+    "dana",
+    "kalameh",
+    "peyda",
+    "yekan-bakh",
+    "web-fonts",
+    "cdn",
+    "rtl",
+    "typography",
+    "iranian-fonts",
+    "persian-typography"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirAbbasVafaee/persian-fonts-cdn.git"
+  },
+  "author": "AmirAbbasVafaee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmirAbbasVafaee/persian-fonts-cdn/issues"
+  },
+  "homepage": "https://github.com/AmirAbbasVafaee/persian-fonts-cdn#readme",
+  "cdn": "https://cdn.jsdelivr.net/gh/AmirAbbasVafaee/persian-fonts-cdn@main/css/all-fonts.css",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^6.1.2",
+    "postcss": "^8.5.6"
+  }
+}
